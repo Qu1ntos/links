@@ -2,13 +2,7 @@
 
 @media (max-aspect-ratio: 9/16) {
 	html {
-		font-size: 10vw;
-	}
-
-	img {
-		width: 10vw;
-		height: 10vw;
-		padding: 0px 10px 0px 10px;
+		font-size: 1.5em;
 	}
 }
 
@@ -16,16 +10,10 @@
 	html {
 		font-size: 2vw;
 	}
-
-	img {
-		width: 2vw;
-		height: 2vw;
-		padding: 0px 10px 0px 10px;
-	}
 }
 
 html {
-	/* font-family: 'Reem Kufi', sans-serif; */
+	font-family: 'Reem Kufi', sans-serif;
 	overflow: hidden;
 }
 
@@ -37,10 +25,10 @@ body {
 
 .mainBtn {
 	display: flex;
-	justify-content: center; /* Вирівнює кнопки по горизонталі (по центру) */
-	align-items: center; /* Вирівнює кнопки по вертикалі (по центру) */
-	flex-direction: column; /* Встановлює вертикальне вирівнювання */
-	height: 100vh; /* Забезпечує, щоб контейнер займав всю висоту вікна */
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
 }
 
 a {
