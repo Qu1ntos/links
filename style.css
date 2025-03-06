@@ -19,6 +19,9 @@ body {
 	height: 100vh;
 }
 
+img {
+	width: 70vw
+}
 
 a {
 	font-size: 60px;
