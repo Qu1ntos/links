@@ -19,12 +19,9 @@ body {
 	height: 100vh;
 }
 
-h1 {
-	font-size: 65px;
-}
 
 a {
-	font-size: 52px;
+	font-size: 60px;
 
 	align-items: center;
 	display: inline-flex;
