@@ -4,6 +4,10 @@
 	html {
 		font-size: 10em;
 	}
+
+	h1 {
+		font-size: 4em;
+	}
 }
 
 @media (min-aspect-ratio: 16/9) {
