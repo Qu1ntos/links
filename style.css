@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap');
+
+@media (max-aspect-ratio: 9/16) {
+	html {
+		font-size: 10vw;
+	}
+
+	img {
+		width: 10vw;
+		height: 10vw;
+		padding: 0px 10px 0px 10px;
+	}
+}
+
+@media (min-aspect-ratio: 16/9) {
+	html {
+		font-size: 2vw;
+	}
+
+	img {
+		width: 2vw;
+		height: 2vw;
+		padding: 0px 10px 0px 10px;
+	}
+}
+
+html {
+	/* font-family: 'Reem Kufi', sans-serif; */
+	overflow: hidden;
+}
+
+body {
+	height: 100vh;
+	width: 100vw;
+	background-color: wheat;
+}
+
+.mainBtn {
+	display: flex;
+	justify-content: center; /* Вирівнює кнопки по горизонталі (по центру) */
+	align-items: center; /* Вирівнює кнопки по вертикалі (по центру) */
+	flex-direction: column; /* Встановлює вертикальне вирівнювання */
+	height: 100vh; /* Забезпечує, щоб контейнер займав всю висоту вікна */
+}
+
+a {
+	align-items: center;
+	display: inline-flex;
+
+	width: 70vw;
+	text-align: center;
+	background-color:#000000; 	/* Button color */
+	border-radius:7px;
+	border:1px solid #ffffff;	/* Last tag -- border color */
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;			/* Text color */
+	padding:18px 75px;
+	text-decoration:none;
+	text-shadow:0px 1px 6px #2f6627;
+}
+
+a:active {
+	position:relative;
+	top:2px;
+}
+
+.telegram {
+	background-color: #00d4ff
+}
+
+.telegram:hover {
+	background-color: #096479
+}
+
+.viber {
+	background-color: #ff00b0
+}
+
+.viber:hover {
+	background-color: #6b0979
+}
+
+.whatsApp {
+	background-color: #3bf546
+}
+
+.whatsApp:hover {
+	background-color: #28a430
+}
+
+.email {	
+	background-color: #C2B800
+}
+
+.email:hover {
+	background-color: #705C01
+}
