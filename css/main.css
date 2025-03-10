@@ -34,7 +34,7 @@
 	
 	.buttonBox span {
 		width: 10vw !important;
-		font-size: 48px !important;
+		font-size: 2.5vw !important;
 		margin: 2vw !important;
 	}
 
@@ -46,7 +46,7 @@
 		width: 10vw !important;
 		height: 5vw !important;
 	
-		font-size: 24px !important;
+		font-size: 1.5vw !important;
 	}
 
 	footer { /* Стиль для футера */
@@ -57,7 +57,7 @@
 	
 	.contact { /* Стиль для контейнеру контактів */
 		height: 15vw !important;
-		font-size: 30px !important;
+		font-size: 1.75vw !important;
 	}
 	
 	.map { /* Стиль для карти */
